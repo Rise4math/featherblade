@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		BF6F556A74B80D40D8B73C5C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = ShuttleApp.swift;
+			sourceTree = "<group>";
+		};
+		82509CCEF3014D1305FF33FA = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = CourtSound.swift;
+			sourceTree = "<group>";
+		};
+		8CDE0960AFA3902A5F72549B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = MatchScene.swift;
+			sourceTree = "<group>";
+		};
+		E19FA4E32260487DB8F886A7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = BadmintonPhysics.swift;
+			sourceTree = "<group>";
+		};
+		1CE7338B2D4573554D74E24B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Athlete.swift;
+			sourceTree = "<group>";
+		};
+		0FD03A39C649AFDF9D2B5EF2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Arena.swift;
+			sourceTree = "<group>";
+		};
+		795A02A63DC9C1E86758E98F = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder.assetcatalog;
+			path = Assets.xcassets;
+			sourceTree = "<group>";
+		};
+		9AC3B5AD93CBC0305C62F78F = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		E17E80AD8E2103CF3FC3FD96 = {
+			isa = PBXGroup;
+			children = (BF6F556A74B80D40D8B73C5C, 82509CCEF3014D1305FF33FA, 8CDE0960AFA3902A5F72549B, E19FA4E32260487DB8F886A7, 1CE7338B2D4573554D74E24B, 0FD03A39C649AFDF9D2B5EF2, 795A02A63DC9C1E86758E98F, 9AC3B5AD93CBC0305C62F78F);
+			sourceTree = "<group>";
+			path = Shuttle;
+		};
+		C6B4170AF55329DA3A180913 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = ShuttleUITests.swift;
+			sourceTree = "<group>";
+		};
+		781CAA6738A604344AE86EE3 = {
+			isa = PBXGroup;
+			children = (C6B4170AF55329DA3A180913);
+			sourceTree = "<group>";
+			path = ShuttleUITests;
+		};
+		3011F9E325430A73320344A7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = MatchTests.swift;
+			sourceTree = "<group>";
+		};
+		B6DDC82AAD032FF60C6BA879 = {
+			isa = PBXGroup;
+			children = (3011F9E325430A73320344A7);
+			sourceTree = "<group>";
+			path = ShuttleTests;
+		};
+		F290CBF6CBA1AA0A202DEC6F = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = Shuttle.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B9D05781EFE7395961FB3A4A = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			path = ShuttleUITests.xctest;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2948E13C61C3CBFDDCBC464B = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			path = ShuttleTests.xctest;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0A3E27B8CA818264D75C8D81 = {
+			isa = PBXGroup;
+			children = (F290CBF6CBA1AA0A202DEC6F, B9D05781EFE7395961FB3A4A, 2948E13C61C3CBFDDCBC464B);
+			sourceTree = "<group>";
+			name = Products;
+		};
+		C8D2DC745BFC63C0D67231CE = {
+			isa = PBXGroup;
+			children = (E17E80AD8E2103CF3FC3FD96, 781CAA6738A604344AE86EE3, B6DDC82AAD032FF60C6BA879, 0A3E27B8CA818264D75C8D81);
+			sourceTree = "<group>";
+		};
+		73EBF6644258C120893E685D = {
+			isa = XCBuildConfiguration;
+			name = Debug;
+			buildSettings = {
+				SDKROOT = iphoneos;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SWIFT_VERSION = 5.0;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				CODE_SIGN_STYLE = Automatic;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+			};
+		};
+		0B0C687DF8B6B8DC790B519C = {
+			isa = XCBuildConfiguration;
+			name = Release;
+			buildSettings = {
+				SDKROOT = iphoneos;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SWIFT_VERSION = 5.0;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				CODE_SIGN_STYLE = Automatic;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+			};
+		};
+		265F3897402553B7AE9AA02A = {
+			isa = XCConfigurationList;
+			buildConfigurations = (73EBF6644258C120893E685D, 0B0C687DF8B6B8DC790B519C);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00CCDD09424E369308D67FA = {
+			isa = XCBuildConfiguration;
+			name = Debug;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = studio.featherblade.Shuttle;
+				INFOPLIST_FILE = Shuttle/Info.plist;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+			};
+		};
+		1B104479E55E37CF8A63CBDF = {
+			isa = XCBuildConfiguration;
+			name = Release;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = studio.featherblade.Shuttle;
+				INFOPLIST_FILE = Shuttle/Info.plist;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+			};
+		};
+		5B1C8A6445F1C20B07BD7063 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (B00CCDD09424E369308D67FA, 1B104479E55E37CF8A63CBDF);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE13D297ADA3050478DA7528 = {
+			isa = PBXBuildFile;
+			fileRef = BF6F556A74B80D40D8B73C5C;
+		};
+		D5E0BD3BA62A441C4E17082F = {
+			isa = PBXBuildFile;
+			fileRef = 82509CCEF3014D1305FF33FA;
+		};
+		9ECBC168F2F888C8E1A28D35 = {
+			isa = PBXBuildFile;
+			fileRef = 8CDE0960AFA3902A5F72549B;
+		};
+		B017079D6F410A5AF6E70556 = {
+			isa = PBXBuildFile;
+			fileRef = E19FA4E32260487DB8F886A7;
+		};
+		5ED8C016FC092D3EA21DAFD2 = {
+			isa = PBXBuildFile;
+			fileRef = 1CE7338B2D4573554D74E24B;
+		};
+		D0F5F2B5CEF1E358DE1C964A = {
+			isa = PBXBuildFile;
+			fileRef = 0FD03A39C649AFDF9D2B5EF2;
+		};
+		25A6634263C1B1F6FC4697A0 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (BE13D297ADA3050478DA7528, D5E0BD3BA62A441C4E17082F, 9ECBC168F2F888C8E1A28D35, B017079D6F410A5AF6E70556, 5ED8C016FC092D3EA21DAFD2, D0F5F2B5CEF1E358DE1C964A);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F7AB476BC3A83FAD639D34 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE0BBEC37407380D400F491 = {
+			isa = PBXBuildFile;
+			fileRef = 795A02A63DC9C1E86758E98F;
+		};
+		6EEB55F76600D4AD08BE72AD = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (6FE0BBEC37407380D400F491);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A04005BCAF206EEC990BD9 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B1C8A6445F1C20B07BD7063;
+			buildPhases = (25A6634263C1B1F6FC4697A0, 07F7AB476BC3A83FAD639D34, 6EEB55F76600D4AD08BE72AD);
+			buildRules = ();
+			dependencies = ();
+			name = Shuttle;
+			productName = Shuttle;
+			productReference = F290CBF6CBA1AA0A202DEC6F;
+			productType = "com.apple.product-type.application";
+		};
+		1241936D4DD3AAD68FE7BFBD = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E73C023A2E8E90349BB4D853;
+			proxyType = 1;
+			remoteGlobalIDString = 34A04005BCAF206EEC990BD9;
+			remoteInfo = Shuttle;
+		};
+		156F725150A84FCB69393542 = {
+			isa = XCBuildConfiguration;
+			name = Debug;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = studio.featherblade.ShuttleUITests;
+				TEST_TARGET_NAME = Shuttle;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+			};
+		};
+		C23B5A69B2E27C3E5F160FC6 = {
+			isa = XCBuildConfiguration;
+			name = Release;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = studio.featherblade.ShuttleUITests;
+				TEST_TARGET_NAME = Shuttle;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+			};
+		};
+		052B32A00506AD04C67D9680 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (156F725150A84FCB69393542, C23B5A69B2E27C3E5F160FC6);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0484FE59C01DAE4051A644B4 = {
+			isa = PBXBuildFile;
+			fileRef = C6B4170AF55329DA3A180913;
+		};
+		CCB136CEF1EA22564FCF15C5 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (0484FE59C01DAE4051A644B4);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BF7ED99CA649C5286E660E = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE3E71EF8635D2BF27913BB = {
+			isa = PBXTargetDependency;
+			target = 34A04005BCAF206EEC990BD9;
+			targetProxy = 1241936D4DD3AAD68FE7BFBD;
+		};
+		16F90C2C0FEA799695F28B00 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052B32A00506AD04C67D9680;
+			buildPhases = (CCB136CEF1EA22564FCF15C5, 38BF7ED99CA649C5286E660E);
+			buildRules = ();
+			dependencies = (8CE3E71EF8635D2BF27913BB);
+			name = ShuttleUITests;
+			productName = ShuttleUITests;
+			productReference = B9D05781EFE7395961FB3A4A;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		06447CFE7C9EC0DF95758D28 = {
+			isa = XCBuildConfiguration;
+			name = Debug;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = studio.featherblade.ShuttleTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shuttle.app/Shuttle";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+			};
+		};
+		C7B5381B563420DB10153B50 = {
+			isa = XCBuildConfiguration;
+			name = Release;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = studio.featherblade.ShuttleTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shuttle.app/Shuttle";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+			};
+		};
+		D5DF65FA34FAD3A947199840 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (06447CFE7C9EC0DF95758D28, C7B5381B563420DB10153B50);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7392B118F1DE172CFCECA8E1 = {
+			isa = PBXBuildFile;
+			fileRef = 3011F9E325430A73320344A7;
+		};
+		DBF3363937FD5D518A96E06C = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (7392B118F1DE172CFCECA8E1);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19EEFC248B1A735AB8051DD = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB88C6524924B9739711DC7 = {
+			isa = PBXTargetDependency;
+			target = 34A04005BCAF206EEC990BD9;
+			targetProxy = 1241936D4DD3AAD68FE7BFBD;
+		};
+		4A0A29027758F85116720767 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DF65FA34FAD3A947199840;
+			buildPhases = (DBF3363937FD5D518A96E06C, B19EEFC248B1A735AB8051DD);
+			buildRules = ();
+			dependencies = (FEB88C6524924B9739711DC7);
+			name = ShuttleTests;
+			productName = ShuttleTests;
+			productReference = 2948E13C61C3CBFDDCBC464B;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E73C023A2E8E90349BB4D853 = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					34A04005BCAF206EEC990BD9 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					16F90C2C0FEA799695F28B00 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 34A04005BCAF206EEC990BD9;
+					};
+				};
+			};
+			buildConfigurationList = 265F3897402553B7AE9AA02A;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = zh_CN;
+			hasScannedForEncodings = 0;
+			knownRegions = (zh_CN, en, Base);
+			mainGroup = C8D2DC745BFC63C0D67231CE;
+			productRefGroup = 0A3E27B8CA818264D75C8D81;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (34A04005BCAF206EEC990BD9, 16F90C2C0FEA799695F28B00, 4A0A29027758F85116720767);
+		};
+	};
+	rootObject = E73C023A2E8E90349BB4D853;
+}
